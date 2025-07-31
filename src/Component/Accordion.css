@@ -1,0 +1,95 @@
+.heading {
+    font-family: "Great Vibes", cursive;
+    font-size: 55px;
+    text-shadow: rgb(171, 171, 171) 3px 3px 3px;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.data-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.que-ans-wrapper {
+    background: white;
+    width: 40%;
+    padding: 0 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px 3px rgb(154, 180, 182);
+}
+
+.que-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.ans-wrapper {
+    border-top: 0.5px solid rgb(113, 130, 131);
+    font-size: 15px;
+    color: rgb(113, 130, 131);
+}
+
+.btn {
+    color: goldenrod;
+    cursor: pointer;
+    background: white;
+    padding: 0;
+    border: 1px solid goldenrod;
+    width: 15px;
+    height: 15px;
+}
+
+.ans {
+    margin-top: 5px;
+}
+
+.multi-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: white;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    display: flex;
+}
+
+.enable {
+    margin: 0;
+    color: rgb(165, 110, 7);
+}
+
+@media screen and (max-width:768px) {
+    .heading {
+        font-size: 45px;
+    }
+
+    .multi-btn {
+        font-size: 13px;
+    }
+
+    .que-ans-wrapper {
+        width: 75%;
+    }
+
+    .ans-wrapper {
+        font-size: 12px;
+    }
+
+    .que-wrapper {
+        font-size: 13px;
+    }
+
+    .btn {
+        width: 10px;
+        height: 10px;
+    }
+}
